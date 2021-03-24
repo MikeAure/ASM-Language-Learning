@@ -180,7 +180,7 @@ code segment
         add cx, 30h
         push cx
         inc si
-        cmp dx, 0       ;此处用cmp，实在知道怎么用jcxz
+        cmp dx, 0       ;此处用cmp，实在不知道怎么用jcxz🤦‍
         je cmp_ax
         jmp ok4
 
