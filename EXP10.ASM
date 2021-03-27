@@ -63,8 +63,6 @@ code segment
          push si
          push di
          push cx
-        
-                         ;逐行显示字符串
     
         mov ax, 0b800h  
         mov es, ax              ;保存显示区域的首地址
