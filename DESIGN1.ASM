@@ -246,8 +246,8 @@ code segment
         mov bx, ax
         pop ax
         div cx
-        mov cx, dx                  ;存储计算结果的余数
-        mov dx,bx
+        mov cx, dx
+        mov dx, bx
         pop bx
         ret
 
